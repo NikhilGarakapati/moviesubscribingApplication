@@ -1,3 +1,4 @@
+const auth = require('../middleware/auth'); // authentication
 const jwt = require('jsonwebtoken');
 const config = require('config');
 const _ = require('lodash');
@@ -6,9 +7,9 @@ const mongoose = require('mongoose');
 const express = require('express');
 const router = express.Router();
 
-router.get('/', async (req, res) => {
-  const genres = await User.find().sort('name');
-  res.send(genres);
+router.get('/me', auth, async (req, res) => {
+  const user = await User.findById(req.user._id).select('-password');
+  res.send(user);
 });
 
 router.post('/', async (req, res) => {
@@ -25,7 +26,7 @@ router.post('/', async (req, res) => {
   // user.password = await bcrypt.hash(user.password, salt);
   await user.save();
   
-  const token = jwt.sign({ _id: user._id}, config.get('jwtprivateKey'));
+  const token = user.generateAuthToken();
   res.header('x-auth-token', token).send(_.pick(user, ['_id','name','email']));
 });
 
