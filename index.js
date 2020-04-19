@@ -1,3 +1,4 @@
+const winston = require('winston');
 require('express-async-errors');
 const error = require('./middleware/error');
 const config = require('config');   
@@ -12,6 +13,9 @@ const users = require('./routes/users');
 const auth = require('./routes/auth');
 const express = require('express');
 const app = express();
+
+winston.add(new winston.transports.File({filename: 'logfile.log'}));
+//transport is a storage file consists of console, file, http. 
 
 if(!config.get('jwtprivateKey')){
   console.log('FATAL ERROR: jwtprivateKey is not defined');
