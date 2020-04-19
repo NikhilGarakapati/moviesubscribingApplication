@@ -1,4 +1,5 @@
 const winston = require('winston');
+require('winston-mongodb');
 require('express-async-errors');
 const error = require('./middleware/error');
 const config = require('config');   
@@ -14,8 +15,23 @@ const auth = require('./routes/auth');
 const express = require('express');
 const app = express();
 
+// process.on('uncaughtException', (ex)=>{
+//   winston.error(ex.message, ex);      
+//   process.exit(1);                     // To log Exceptions
+  
+// });
+
+// winston.exceptions.handle(    // to log unhandled promise rejections
+//   new winston.transports.File({ filename: 'uncaughtExceptions.log' })
+// );
+
+// process.on('unhandledRejection', (ex)=>{
+//   throw(ex);                       // TO log promise rejection
+// });
+
 winston.add(new winston.transports.File({filename: 'logfile.log'}));
 //transport is a storage file consists of console, file, http. 
+// winston.add(new winston.transports.MongoDB({ db: 'mongodb://localhost:27017/vidly'}));
 
 if(!config.get('jwtprivateKey')){
   console.log('FATAL ERROR: jwtprivateKey is not defined');
@@ -35,6 +51,7 @@ app.use('/api/users', users);
 app.use('/api/auth', auth);
 
 app.use(error); //middleware/error.js
+
 
 const port = process.env.PORT || 3000;
 app.listen(port, () => console.log(`Listening on port ${port}...`));
