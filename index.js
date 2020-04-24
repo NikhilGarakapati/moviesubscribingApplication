@@ -9,7 +9,6 @@ require('./startup/config')();
 require('./startup/validation')();
 
 
-
 //winston expection handling code moved to startup/logging.js
 
 //configuration file deals with jwtprivateKey moved to startup/config.js
