@@ -1,10 +1,10 @@
 {
   "name": "vidly",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a pilot project for designing the API services for a Movie subscribing application.",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll"
+    "test": "jest --watchAll --verbose"
   },
   "keywords": [],
   "author": "",
@@ -25,6 +25,18 @@
     "winston-mongodb": "^5.0.1"
   },
   "devDependencies": {
-    "jest": "^25.4.0"
-  }
+    "jest": "^25.4.0",
+    "supertest": "^4.0.2"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikhilGarakapati/moviesubscribingApplication.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NikhilGarakapati/moviesubscribingApplication/issues"
+  },
+  "homepage": "https://github.com/NikhilGarakapati/moviesubscribingApplication#readme"
 }

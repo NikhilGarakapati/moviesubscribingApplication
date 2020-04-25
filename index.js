@@ -2,12 +2,12 @@ const express = require('express');
 const app = express();
 const winston = require('winston');
 
-require('./startup/logging');
+
+require('./startup/logging')(); // function definition 
 require('./startup/routes')(app);
 require('./startup/db')();
 require('./startup/config')();
 require('./startup/validation')();
-
 
 //winston expection handling code moved to startup/logging.js
 
@@ -21,6 +21,8 @@ require('./startup/validation')();
 
 
 const port = process.env.PORT || 3000;
-app.listen(port, () => winston.info(`Listening on port ${port}...`));
+const server = app.listen(port, () => winston.info(`Listening on port ${port}...`));
+
+module.exports = server;
 
 
