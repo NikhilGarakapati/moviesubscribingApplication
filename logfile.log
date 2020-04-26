@@ -6,3 +6,177 @@
 {"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
 {"message":"Listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"","name":"CastError","stringValue":"\"1\"","value":"1","path":"_id","reason":{},"level":"error","stack":"CastError: Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"\n    at new CastError (/home/nikhil/Documents/nodejs/moviesubscribingApplication/node_modules/mongoose/lib/error/cast.js:29:11)\n    at model.Query.exec (/home/nikhil/Documents/nodejs/moviesubscribingApplication/node_modules/mongoose/lib/query.js:4331:21)\n    at model.Query.Object.<anonymous>.Query.then (/home/nikhil/Documents/nodejs/moviesubscribingApplication/node_modules/mongoose/lib/query.js:4423:15)\n    at process._tickCallback (internal/process/next_tick.js:188:7)"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"","name":"CastError","stringValue":"\"1\"","value":"1","path":"_id","reason":{},"level":"error","stack":"CastError: Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"\n    at new CastError (/home/nikhil/Documents/nodejs/moviesubscribingApplication/node_modules/mongoose/lib/error/cast.js:29:11)\n    at model.Query.exec (/home/nikhil/Documents/nodejs/moviesubscribingApplication/node_modules/mongoose/lib/query.js:4331:21)\n    at model.Query.Object.<anonymous>.Query.then (/home/nikhil/Documents/nodejs/moviesubscribingApplication/node_modules/mongoose/lib/query.js:4423:15)\n    at process._tickCallback (internal/process/next_tick.js:188:7)"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"","name":"CastError","stringValue":"\"1\"","value":"1","path":"_id","reason":{},"level":"error","stack":"CastError: Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"\n    at new CastError (/home/nikhil/Documents/nodejs/moviesubscribingApplication/node_modules/mongoose/lib/error/cast.js:29:11)\n    at model.Query.exec (/home/nikhil/Documents/nodejs/moviesubscribingApplication/node_modules/mongoose/lib/query.js:4331:21)\n    at model.Query.Object.<anonymous>.Query.then (/home/nikhil/Documents/nodejs/moviesubscribingApplication/node_modules/mongoose/lib/query.js:4423:15)\n    at process._tickCallback (internal/process/next_tick.js:188:7)"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"","name":"CastError","stringValue":"\"1\"","value":"1","path":"_id","reason":{},"level":"error","stack":"CastError: Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"\n    at new CastError (/home/nikhil/Documents/nodejs/moviesubscribingApplication/node_modules/mongoose/lib/error/cast.js:29:11)\n    at model.Query.exec (/home/nikhil/Documents/nodejs/moviesubscribingApplication/node_modules/mongoose/lib/query.js:4331:21)\n    at model.Query.Object.<anonymous>.Query.then (/home/nikhil/Documents/nodejs/moviesubscribingApplication/node_modules/mongoose/lib/query.js:4423:15)\n    at process._tickCallback (internal/process/next_tick.js:188:7)"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"","name":"CastError","stringValue":"\"1\"","value":"1","path":"_id","reason":{},"level":"error","stack":"CastError: Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"\n    at new CastError (/home/nikhil/Documents/nodejs/moviesubscribingApplication/node_modules/mongoose/lib/error/cast.js:29:11)\n    at model.Query.exec (/home/nikhil/Documents/nodejs/moviesubscribingApplication/node_modules/mongoose/lib/query.js:4331:21)\n    at model.Query.Object.<anonymous>.Query.then (/home/nikhil/Documents/nodejs/moviesubscribingApplication/node_modules/mongoose/lib/query.js:4423:15)\n    at process._tickCallback (internal/process/next_tick.js:188:7)"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"","name":"CastError","stringValue":"\"1\"","value":"1","path":"_id","reason":{},"level":"error","stack":"CastError: Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"\n    at new CastError (/home/nikhil/Documents/nodejs/moviesubscribingApplication/node_modules/mongoose/lib/error/cast.js:29:11)\n    at model.Query.exec (/home/nikhil/Documents/nodejs/moviesubscribingApplication/node_modules/mongoose/lib/query.js:4331:21)\n    at model.Query.Object.<anonymous>.Query.then (/home/nikhil/Documents/nodejs/moviesubscribingApplication/node_modules/mongoose/lib/query.js:4423:15)\n    at process._tickCallback (internal/process/next_tick.js:188:7)"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"","name":"CastError","stringValue":"\"1\"","value":"1","path":"_id","reason":{},"level":"error","stack":"CastError: Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"\n    at new CastError (/home/nikhil/Documents/nodejs/moviesubscribingApplication/node_modules/mongoose/lib/error/cast.js:29:11)\n    at model.Query.exec (/home/nikhil/Documents/nodejs/moviesubscribingApplication/node_modules/mongoose/lib/query.js:4331:21)\n    at model.Query.Object.<anonymous>.Query.then (/home/nikhil/Documents/nodejs/moviesubscribingApplication/node_modules/mongoose/lib/query.js:4423:15)\n    at process._tickCallback (internal/process/next_tick.js:188:7)"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"","name":"CastError","stringValue":"\"1\"","value":"1","path":"_id","reason":{},"level":"error","stack":"CastError: Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"\n    at new CastError (/home/nikhil/Documents/nodejs/moviesubscribingApplication/node_modules/mongoose/lib/error/cast.js:29:11)\n    at model.Query.exec (/home/nikhil/Documents/nodejs/moviesubscribingApplication/node_modules/mongoose/lib/query.js:4331:21)\n    at model.Query.Object.<anonymous>.Query.then (/home/nikhil/Documents/nodejs/moviesubscribingApplication/node_modules/mongoose/lib/query.js:4423:15)\n    at process._tickCallback (internal/process/next_tick.js:188:7)"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"","name":"CastError","stringValue":"\"1\"","value":"1","path":"_id","reason":{},"level":"error","stack":"CastError: Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"\n    at new CastError (/home/nikhil/Documents/nodejs/moviesubscribingApplication/node_modules/mongoose/lib/error/cast.js:29:11)\n    at model.Query.exec (/home/nikhil/Documents/nodejs/moviesubscribingApplication/node_modules/mongoose/lib/query.js:4331:21)\n    at model.Query.Object.<anonymous>.Query.then (/home/nikhil/Documents/nodejs/moviesubscribingApplication/node_modules/mongoose/lib/query.js:4423:15)\n    at process._tickCallback (internal/process/next_tick.js:188:7)"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost:27017/vidly_testenv...","level":"info"}
