@@ -5,11 +5,11 @@ const mongoose = require('mongoose');
 let server;
 
 describe('/api/genres', ()=>{
-    beforeEach(()=> {server = require('../../index'); }) //before each start of the test , starting the server
+    beforeEach(async()=> {server = require('../../index'); }) //before each start of the test , starting the server
     afterEach(async()=>{ 
+        await server.close(); 
         await Genre.remove({});
-        server.close(); 
-        
+
     });
 
     describe('GET /',()=>{
@@ -22,7 +22,7 @@ describe('/api/genres', ()=>{
             expect(res.status).toBe(200);
             expect(res.body.length).toBe(2);
             expect(res.body.some(g => g.name === 'genre1')).toBeTruthy();
-
+            expect(res.body.some(g => g.name === 'genre2')).toBeTruthy();
            
         });
     });
@@ -45,7 +45,7 @@ describe('/api/genres', ()=>{
 
         it('should return 404 if no genre with given id exists', async() => {
 
-            const id = mongoose.Types.ObjectID();
+            const id = mongoose.Types.ObjectID;
             const res = await request(server).get('/api/genres/'+id);
             expect(res.status).toBe(404);
             
@@ -65,7 +65,7 @@ describe('/api/genres', ()=>{
             
         }
 
-        beforeEach(()=>{
+        beforeEach(async()=>{
             token = new User().generateAuthToken();
             name = 'genre1';
         })
@@ -216,7 +216,7 @@ describe('/api/genres', ()=>{
         });
     
         it('should return 404 if id is invalid', async () => {
-          id = 1; 
+          id = ''; 
           
           const res = await exec();
     

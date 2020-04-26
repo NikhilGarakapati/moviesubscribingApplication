@@ -6,7 +6,7 @@ describe('auth middleware', ()=> {
     beforeEach(()=> {server = require('../../index'); }) //before each start of the test , starting the server
     afterEach(async()=>{
         await Genre.remove(); 
-        server.close(); 
+        await server.close(); 
     });
 
     let token;
