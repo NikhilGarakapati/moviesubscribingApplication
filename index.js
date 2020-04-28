@@ -3,7 +3,7 @@ const app = express();
 const winston = require('winston');
 
 
-require('./startup/logging')(); // function definition 
+require('./startup/logging'); // function definition 
 require('./startup/routes')(app);
 require('./startup/db')();
 require('./startup/config')();

@@ -4,7 +4,11 @@
   "description": "This is a pilot project for designing the API services for a Movie subscribing application.",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll --verbose --coverage"
+    "test": "jest --watchAll --verbose",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "v8.10.0"
   },
   "keywords": [],
   "author": "",
