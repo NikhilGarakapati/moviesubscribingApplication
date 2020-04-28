@@ -26,6 +26,7 @@
   },
   "devDependencies": {
     "jest": "^25.4.0",
+    "moment": "^2.24.0",
     "supertest": "^4.0.2"
   },
   "directories": {

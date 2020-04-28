@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 let server;
 
 describe('/api/genres', ()=>{
-    beforeEach(async()=> {server = require('../../index'); }) //before each start of the test , starting the server
+    beforeEach(()=> {server = require('../../index'); }) //before each start of the test , starting the server
     afterEach(async()=>{ 
         await server.close(); 
         await Genre.remove({});
@@ -14,10 +14,9 @@ describe('/api/genres', ()=>{
 
     describe('GET /',()=>{
         it('should return all genres',async ()=>{
-            await Genre.collection.insertMany([
-                {name: 'genre1'},
-                {name: 'genre2'}
-            ]);
+            const genres = [{name: 'genre1'}, {name: 'genre2'}];
+            await Genre.collection.insertMany(genres);
+
             const res = await request(server).get('/api/genres');
             expect(res.status).toBe(200);
             expect(res.body.length).toBe(2);
@@ -32,7 +31,7 @@ describe('/api/genres', ()=>{
             const genre = new Genre({name:'genre1'});
             await genre.save();
 
-            const res = await request(server).get('/api/genres' + genre._id);
+            const res = await request(server).get('/api/genres/' + genre._id);
             expect(res.status).toBe(200);
             expect(res.body).toHaveProperty('name', genre.name);
         });
