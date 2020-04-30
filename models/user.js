@@ -23,7 +23,7 @@ const userSchema = new mongoose.Schema({
       minLength: 5,
       maxLength: 1024,
   },
-  isAdmin: Boolean,
+  isAdmin: Boolean
   // roles: [],
   // operations: []
 });

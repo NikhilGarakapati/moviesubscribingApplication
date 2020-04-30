@@ -1,3 +1,4 @@
+const bcrypt = require('bcryptjs');
 const auth = require('../middleware/auth'); // authentication
 const jwt = require('jsonwebtoken');
 const config = require('config');
@@ -22,8 +23,8 @@ router.post('/', async (req, res) => {
   
   user = new User(_.pick(req.body,['name','email','password']));
   
-  // const salt = await bcrypt.genSalt(10);
-  // user.password = await bcrypt.hash(user.password, salt);
+  const salt = await bcrypt.genSaltSync(10);
+  user.password = await bcrypt.hashSync(user.password, salt);
   await user.save();
   
   const token = user.generateAuthToken();

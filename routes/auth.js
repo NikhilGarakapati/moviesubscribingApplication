@@ -1,14 +1,10 @@
+const bcrypt =  require('bcryptjs');
 const Joi = require('joi');
 const _ = require('lodash');
-const User = require('../models/user');
+const {User} = require('../models/user');
 const mongoose = require('mongoose');
 const express = require('express');
 const router = express.Router();
-
-router.get('/', async (req, res) => {
-    const genres = await User.find().sort('name');
-    res.send(genres);
-});
 
 router.post('/', async (req, res) => {
     const { error } = validateUser(req.body); 
@@ -20,7 +16,7 @@ router.post('/', async (req, res) => {
 
     //checking passwords
     const validPassword = await bcrypt.compare(req.body.password, user.password);
-    if(!lvalidPassword) return res.status(400).send('Invalid email || password ');
+    if(!validPassword) return res.status(400).send('Invalid email || password ');
 
     const token = user.generateAuthToken();
     res.send(token);
